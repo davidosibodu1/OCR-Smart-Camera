@@ -1,6 +1,6 @@
 # OCR-Smart-Camera
 
-This script provides a user-friendly interface for performing optical character recognition (OCR) on images. Users can select an image file either from their computer or capture it through a webcam. The selected image is then preprocessed, and the text present in the image is extracted using the Tesseract OCR engine.
+This script provides a user-friendly interface for performing optical character recognition (OCR) on images, using Tesseract, a open source OCR engine. Users can select an image file either from their computer or capture it through a webcam. The selected image then goes through 9 preprocessing stpes using a computer vision librabry called OpenCV. The text present in the image is extracted using the Tesseract OCR engine.
 
 Once the text is extracted, users can choose a target language from a dropdown menu. The extracted text is then translated into the selected language using the Google Translate API. The translated text is displayed in the GUI, allowing users to read and review the translation.
 
